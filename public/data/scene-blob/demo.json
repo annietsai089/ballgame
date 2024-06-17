@@ -1,0 +1,133 @@
+{
+  "id": "uuvu76i94",
+  "name": "demo",
+  "sceneId": "uuvu76i94",
+  "data": [
+    {
+      "id": "auto-sky",
+      "name": "Sky",
+      "type": "sky",
+      "sky": {
+        "materialId": null
+      }
+    },
+    {
+      "id": "auto-global-fog",
+      "name": "Global fog",
+      "type": "global_fog",
+      "fog": {
+        "type": "density",
+        "color": "#b8f8ff",
+        "density": 0.005,
+        "near": 100,
+        "far": 1000
+      }
+    },
+    {
+      "id": "c3f62a96-bc04-4d18-8485-0397db7ade3c",
+      "name": "Box",
+      "position": [
+        -84.24370607053396,
+        1.1574587595924422e-14,
+        -52.12730838397239
+      ],
+      "scale": [
+        4.8,
+        1,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "16de24fc-a846-4a54-a5ef-3a2f69110ccc",
+      "name": "TriggerVolume",
+      "position": [
+        -83.84677177344562,
+        1.0214647510247583,
+        -54.12904379203334
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "TriggerVolume",
+        "innerParams": [
+          {
+            "path": [
+              "trigger"
+            ],
+            "params": {}
+          },
+          {
+            "path": [
+              "trigger",
+              "editorMesh"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {}
+      }
+    },
+    {
+      "id": "78264ce0-aaa4-4dcd-9e12-6bc2891808a2",
+      "name": "SpawnPoint",
+      "position": [
+        -83.69339939293013,
+        1.5238763779401399,
+        -50.35398069348855
+      ],
+      "scale": [
+        1.0000000000000009,
+        1,
+        1.0000000000000009
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.0386662039769575,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "SpawnPoint",
+        "innerParams": [
+          {
+            "path": [
+              "mesh"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {}
+      }
+    }
+  ]
+}

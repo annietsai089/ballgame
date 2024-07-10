@@ -1,0 +1,13 @@
+{
+  "name": "wall_logs_2 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade37-6362-46ff-a571-3d37cf898ff7",
+  "fileKey": "wall_logs_2.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\wall_logs_2.fbx"
+}

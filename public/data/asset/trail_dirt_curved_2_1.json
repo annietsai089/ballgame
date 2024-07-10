@@ -1,0 +1,13 @@
+{
+  "name": "trail_dirt_curved_2 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade34-924a-499a-af2b-2b465011ecbb",
+  "fileKey": "trail_dirt_curved_2.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\trail_dirt_curved_2.fbx"
+}

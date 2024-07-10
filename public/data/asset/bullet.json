@@ -1,0 +1,10 @@
+{
+  "name": "bullet",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada1d-a6ce-4741-b7a2-01b58d67183c",
+  "fileKey": "bullet.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\bullet.obj"
+}

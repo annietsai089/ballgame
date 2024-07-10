@@ -1,0 +1,10 @@
+{
+  "name": "cannon",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada1d-c078-4ee3-8941-ce23febcd464",
+  "fileKey": "cannon.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\cannon.obj"
+}

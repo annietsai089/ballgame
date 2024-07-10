@@ -1,0 +1,13 @@
+{
+  "name": "ground_grass_4 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade2e-fa38-476e-ae44-29b2c5d3084e",
+  "fileKey": "ground_grass_4.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\ground_grass_4.fbx"
+}

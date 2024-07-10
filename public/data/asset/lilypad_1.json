@@ -1,0 +1,13 @@
+{
+  "name": "lilypad 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade30-b2b0-4d0c-ab63-8e3ff36301b7",
+  "fileKey": "lilypad.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\lilypad.fbx"
+}

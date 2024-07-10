@@ -1,0 +1,10 @@
+{
+  "name": "stopwatch",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada26-464e-4a38-bc62-d1de9e6f1b91",
+  "fileKey": "stopwatch.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\stopwatch.obj"
+}

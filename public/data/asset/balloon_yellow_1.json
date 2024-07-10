@@ -1,0 +1,13 @@
+{
+  "name": "balloon_yellow 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade27-e6a8-49cf-b617-c19b80ee7bca",
+  "fileKey": "balloon_yellow.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\balloon_yellow.fbx"
+}

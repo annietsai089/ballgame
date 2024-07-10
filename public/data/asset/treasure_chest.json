@@ -1,0 +1,10 @@
+{
+  "name": "treasure_chest",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada27-f4d0-4495-86e3-90a620c7bd23",
+  "fileKey": "treasure_chest.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\treasure_chest.obj"
+}

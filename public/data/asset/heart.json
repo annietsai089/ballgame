@@ -1,0 +1,10 @@
+{
+  "name": "heart",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada22-b04c-4344-8c13-d72d50344c9c",
+  "fileKey": "heart.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\heart.obj"
+}

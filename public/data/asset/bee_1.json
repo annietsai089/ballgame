@@ -1,0 +1,13 @@
+{
+  "name": "bee 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade28-3180-4936-9127-06a159a7a735",
+  "fileKey": "bee.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\bee.fbx"
+}

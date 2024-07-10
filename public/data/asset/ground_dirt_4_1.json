@@ -1,0 +1,13 @@
+{
+  "name": "ground_dirt_4 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade2e-3530-4b37-aa9b-13116ef16aaf",
+  "fileKey": "ground_dirt_4.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\ground_dirt_4.fbx"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "balloon_red",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada1c-8992-4947-b51c-0cc9c8dcbdca",
+  "fileKey": "balloon_red.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\balloon_red.obj"
+}

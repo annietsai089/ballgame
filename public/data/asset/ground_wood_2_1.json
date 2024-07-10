@@ -1,0 +1,13 @@
+{
+  "name": "ground_wood_2 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade2f-6aae-4188-bcdc-fb441027cf4e",
+  "fileKey": "ground_wood_2.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\ground_wood_2.fbx"
+}

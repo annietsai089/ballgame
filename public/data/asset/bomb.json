@@ -1,0 +1,10 @@
+{
+  "name": "bomb",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada1d-12f4-4918-b8d6-c7ee67235299",
+  "fileKey": "bomb.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\bomb.obj"
+}

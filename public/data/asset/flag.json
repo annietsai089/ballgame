@@ -1,0 +1,10 @@
+{
+  "name": "flag",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada1f-e7e0-4b8c-8a21-54ab54af4dc2",
+  "fileKey": "flag.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\flag.obj"
+}

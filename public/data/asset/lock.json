@@ -1,0 +1,10 @@
+{
+  "name": "lock",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada23-e688-4bcc-bd9c-c7996e9a03ac",
+  "fileKey": "lock.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\lock.obj"
+}

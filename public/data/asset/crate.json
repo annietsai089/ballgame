@@ -1,0 +1,10 @@
+{
+  "name": "crate",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada1e-a196-43d6-9209-3347fea72bb0",
+  "fileKey": "crate.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\crate.obj"
+}

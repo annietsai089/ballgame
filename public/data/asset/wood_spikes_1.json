@@ -1,0 +1,13 @@
+{
+  "name": "wood_spikes 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade38-0c4a-4e27-afa3-1c23589d44b7",
+  "fileKey": "wood_spikes.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\wood_spikes.fbx"
+}

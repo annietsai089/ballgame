@@ -1,0 +1,13 @@
+{
+  "name": "rotating_log 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade32-78b6-4c2c-95ee-3fae78662dbb",
+  "fileKey": "rotating_log.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\rotating_log.fbx"
+}

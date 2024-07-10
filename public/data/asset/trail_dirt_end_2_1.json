@@ -1,0 +1,13 @@
+{
+  "name": "trail_dirt_end_2 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade34-fc80-4b9d-bca9-170e9517dcf1",
+  "fileKey": "trail_dirt_end_2.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\trail_dirt_end_2.fbx"
+}

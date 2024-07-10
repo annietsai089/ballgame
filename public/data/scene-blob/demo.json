@@ -9,7 +9,23 @@
       "type": "sky",
       "sky": {
         "materialId": null
-      }
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ]
     },
     {
       "id": "auto-global-fog",
@@ -21,11 +37,7 @@
         "density": 0.005,
         "near": 100,
         "far": 1000
-      }
-    },
-    {
-      "id": "c3f62a96-bc04-4d18-8485-0397db7ade3c",
-      "name": "Box",
+      },
       "position": [
         -84.24370607053396,
         1.1574587595924422e-14,
@@ -35,6 +47,26 @@
         4.8,
         1,
         5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ]
+    },
+    {
+      "id": "c3f62a96-bc04-4d18-8485-0397db7ade3c",
+      "name": "Box",
+      "position": [
+        1.4210854715202004e-14,
+        20.207308106855745,
+        -5.329070518200751e-15
+      ],
+      "scale": [
+        1,
+        1,
+        1
       ],
       "rotation": [
         0,
@@ -60,9 +92,9 @@
       "id": "16de24fc-a846-4a54-a5ef-3a2f69110ccc",
       "name": "TriggerVolume",
       "position": [
-        -83.84677177344562,
-        1.0214647510247583,
-        -54.12904379203334
+        0,
+        21,
+        0
       ],
       "scale": [
         1,
@@ -100,9 +132,9 @@
       "id": "78264ce0-aaa4-4dcd-9e12-6bc2891808a2",
       "name": "SpawnPoint",
       "position": [
-        -83.69339939293013,
-        1.5238763779401399,
-        -50.35398069348855
+        -84.00000000000001,
+        22.523876377940137,
+        -49.60914915272771
       ],
       "scale": [
         1.0000000000000009,
@@ -111,7 +143,7 @@
       ],
       "rotation": [
         -3.141592653589793,
-        0.0386662039769575,
+        -1.2246467991473537e-16,
         -3.141592653589793,
         "XYZ"
       ],
@@ -127,6 +159,4216 @@
           }
         ],
         "params": {}
+      }
+    },
+    {
+      "id": "c576a012-3546-4beb-973f-3055059d8bc4",
+      "name": "bridge_2",
+      "assetId": "9c5ada1d-778a-442a-b1dd-5a4b452204cb",
+      "position": [
+        -83.9999999991397,
+        21.430920879383066,
+        -57.93673157974885
+      ],
+      "scale": [
+        1.6809753665709306,
+        1,
+        1.5382407283350494
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "501c7543-34d5-41b5-b721-5ed06c95df88",
+      "name": "Box",
+      "position": [
+        -83.99999999999999,
+        20.46042006811967,
+        -67.39100468068827
+      ],
+      "scale": [
+        9.153153255704225,
+        1.4,
+        12.213200616898185
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9c5aedb2-171a-4f2c-9792-89c0687b7a67",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c6317c51-59f5-4074-bc62-89050c8f2cc8",
+      "name": "ground_grass_2",
+      "assetId": "9c5ada21-c182-4358-a01b-5b2ff20a16eb",
+      "position": [
+        -84.09981216647667,
+        19.922463153023166,
+        -87.70024707299271
+      ],
+      "scale": [
+        5.988729623364367,
+        3.679891105232038,
+        7.086855402225584
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "vertexMaterials": [
+        {
+          "i": 32,
+          "w": [
+            0.5036328700321653,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 47,
+          "w": [
+            0.5036328700321653,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 51,
+          "w": [
+            0.5036328700321653,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 54,
+          "w": [
+            0.5036328700321653,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 89,
+          "w": [
+            0.5036328700321653,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 109,
+          "w": [
+            0.5036328700321653,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 162,
+          "w": [
+            0.7643699663455537,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 163,
+          "w": [
+            0.701042628231318,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 165,
+          "w": [
+            0.7643699663455537,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 183,
+          "w": [
+            0.5297451293899268,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 184,
+          "w": [
+            0.7643699663455537,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 186,
+          "w": [
+            0.5297451293899268,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 194,
+          "w": [
+            0.7643699663455537,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 195,
+          "w": [
+            0.7643699663455537,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 198,
+          "w": [
+            0.7643699663455537,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 438,
+          "w": [
+            0.51336767576497,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 439,
+          "w": [
+            0.48875557836786687,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 440,
+          "w": [
+            0.5297451293899268,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 441,
+          "w": [
+            0.51336767576497,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 442,
+          "w": [
+            0.5297451293899268,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 443,
+          "w": [
+            0.5610866948452167,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 444,
+          "w": [
+            0.48875557836786687,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 445,
+          "w": [
+            0.5549598982052377,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 446,
+          "w": [
+            0.701042628231318,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 447,
+          "w": [
+            0.48875557836786687,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 448,
+          "w": [
+            0.701042628231318,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 449,
+          "w": [
+            0.5297451293899268,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 450,
+          "w": [
+            0.24744168624732654,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 451,
+          "w": [
+            0.4490144347659967,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 452,
+          "w": [
+            0.412733925982523,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 453,
+          "w": [
+            0.24744168624732654,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 454,
+          "w": [
+            0.47317342732300216,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 455,
+          "w": [
+            0.4490144347659967,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 456,
+          "w": [
+            0.4490144347659967,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 457,
+          "w": [
+            0.5549598982052377,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 458,
+          "w": [
+            0.48875557836786687,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 459,
+          "w": [
+            0.4490144347659967,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 460,
+          "w": [
+            0.48875557836786687,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 461,
+          "w": [
+            0.412733925982523,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 462,
+          "w": [
+            0.47317342732300216,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 463,
+          "w": [
+            0.5850798399648292,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 464,
+          "w": [
+            0.5549598982052377,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 465,
+          "w": [
+            0.47317342732300216,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 466,
+          "w": [
+            0.5549598982052377,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 467,
+          "w": [
+            0.4490144347659967,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 468,
+          "w": [
+            0.412733925982523,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 469,
+          "w": [
+            0.48875557836786687,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 470,
+          "w": [
+            0.51336767576497,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 471,
+          "w": [
+            0.412733925982523,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 472,
+          "w": [
+            0.51336767576497,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 473,
+          "w": [
+            0.43599324963494623,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 474,
+          "w": [
+            0.43599324963494623,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 475,
+          "w": [
+            0.24744168624732654,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 476,
+          "w": [
+            0.412733925982523,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 477,
+          "w": [
+            0.4597692832571614,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 478,
+          "w": [
+            0.6110127631645109,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 479,
+          "w": [
+            0.5549598982052377,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 480,
+          "w": [
+            0.4597692832571614,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 481,
+          "w": [
+            0.5549598982052377,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 482,
+          "w": [
+            0.5850798399648292,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 483,
+          "w": [
+            0.701042628231318,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 484,
+          "w": [
+            0.5549598982052377,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 485,
+          "w": [
+            0.6110127631645109,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 486,
+          "w": [
+            0.701042628231318,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 487,
+          "w": [
+            0.6110127631645109,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 488,
+          "w": [
+            0.6472652101431544,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 489,
+          "w": [
+            0.701042628231318,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 490,
+          "w": [
+            0.6472652101431544,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 491,
+          "w": [
+            0.7417812493082543,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 492,
+          "w": [
+            0.6472652101431544,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 493,
+          "w": [
+            0.6110127631645109,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 494,
+          "w": [
+            0.4597692832571614,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 495,
+          "w": [
+            0.24744168624732654,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 496,
+          "w": [
+            0.43599324963494623,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 497,
+          "w": [
+            0.47317342732300216,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 498,
+          "w": [
+            0.4597692832571614,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 499,
+          "w": [
+            0.5850798399648292,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 500,
+          "w": [
+            0.6472652101431544,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 501,
+          "w": [
+            0.5297451293899268,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 502,
+          "w": [
+            0.701042628231318,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 503,
+          "w": [
+            0.7643699663455537,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 525,
+          "w": [
+            0.11877006952558788,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 526,
+          "w": [
+            0.018067180675651384,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 527,
+          "w": [
+            0.008230795480587694,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 528,
+          "w": [
+            0.11877006952558788,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 529,
+          "w": [
+            0.008230795480587694,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 530,
+          "w": [
+            0.06794652154721015,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 531,
+          "w": [
+            0.18092787613595396,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 532,
+          "w": [
+            0.11877006952558788,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        },
+        {
+          "i": 533,
+          "w": [
+            0.06794652154721015,
+            0,
+            0
+          ],
+          "m": "GroundGrass2_Cube.011"
+        }
+      ]
+    },
+    {
+      "id": "becf6dfb-5623-4f49-85a4-fd49fc18ef7c",
+      "name": "Group",
+      "type": "group",
+      "collisionDetection": false,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "position": [
+        -83.62072807263162,
+        23.17297476685876,
+        -57.4136422654221
+      ],
+      "children": [
+        {
+          "id": "8b4caef6-f20f-45db-9c9e-f986f9edb62d",
+          "name": "cloud_2",
+          "assetId": "9c5ada1e-2c20-4aaa-b8f5-9a27b5d2261b",
+          "position": [
+            -5.663553596137604,
+            -1.205431710284433,
+            -28.360766251057612
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "9c5ae442-41e6-442d-98d2-35bd4d15a856",
+              "name": ""
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        },
+        {
+          "id": "67e68c27-242a-41fd-a371-e43adfabf12f",
+          "name": "cloud_1",
+          "assetId": "9c5ada1d-f944-4db1-b8ef-d3e4a5f44375",
+          "position": [
+            4.829332841952279,
+            1.3040182371076448,
+            5.279208585581053
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [
+            {
+              "color": "#ffffff",
+              "materialId": "9c5ae442-41e6-442d-98d2-35bd4d15a856",
+              "name": ""
+            }
+          ],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "883f98da-f8b8-4b59-a8c9-8a4d01ca161b",
+      "name": "plant 1",
+      "assetId": "9c5ade31-588c-4c46-945b-8343d0ae363a",
+      "position": [
+        -88.97647621249644,
+        19.85527655719617,
+        -93.52309596125875
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "80011c03-14a5-4c1c-aa27-baf00414b9f8",
+      "name": "ground_grass_4 1",
+      "assetId": "9c5ade2e-fa38-476e-ae44-29b2c5d3084e",
+      "position": [
+        -83.93417246407735,
+        21.506574113331922,
+        -50.96432513444086
+      ],
+      "scale": [
+        0.01563275139218787,
+        0.009999999999999998,
+        0.018348830955314387
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "658d1a0c-7580-4d32-af6f-a8c7f6b8f0a2",
+      "name": "sign_arrow",
+      "assetId": "9c5ada25-ac7a-4891-bbf5-d1d83c4a743e",
+      "position": [
+        -81.37164910971278,
+        21.50657411333192,
+        -52.89109322329475
+      ],
+      "scale": [
+        1,
+        0.9999999999999994,
+        0.9999999999999998
+      ],
+      "rotation": [
+        -0.2779850154073695,
+        -0.9904226794130342,
+        -0.2762551467088092,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "4ba3aecd-6cc2-4288-82af-824a20d40d60",
+      "name": "wall_logs_2",
+      "assetId": "9c5ada29-1b44-4674-a0e3-d6dff6140e84",
+      "position": [
+        -84.02241676278074,
+        21.014563003726845,
+        -47.78276379260987
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "0e4337b1-d76c-4cd5-8f00-8a9e888033a7",
+      "name": "wall_logs_2 1",
+      "assetId": "9c5ade37-6362-46ff-a571-3d37cf898ff7",
+      "position": [
+        -86.03632975358734,
+        21.10656648301721,
+        -47.869964947151956
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "fb51104a-d68b-449a-9a89-0567aa4d865e",
+      "name": "wall_logs_2 1",
+      "assetId": "9c5ade37-6362-46ff-a571-3d37cf898ff7",
+      "position": [
+        -81.95916313945804,
+        21.268896227625106,
+        -47.63522401987128
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "5114143e-5bc0-4b42-8b12-6ac36dde661f",
+      "name": "ladder_1 1",
+      "assetId": "9c5ade30-1454-471a-8890-81e0fd086dab",
+      "position": [
+        -84.06926220740898,
+        19.99241960164626,
+        -80.58141703342176
+      ],
+      "scale": [
+        0.024089796030824517,
+        0.024089796030824524,
+        0.029175877926125294
+      ],
+      "rotation": [
+        1.4006802128358578,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#cccccc",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "938bc226-1b68-4167-a61f-f84c7eb9c5e5",
+      "name": "mushroom",
+      "assetId": "9c5ada24-3a70-49ec-bec8-39c02203d7ee",
+      "position": [
+        -81.34007464962087,
+        19.69564594087345,
+        -89.63600166703226
+      ],
+      "scale": [
+        2.3092423133165414,
+        2.570848845177602,
+        2.1548882840418853
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "12efdc23-89d5-4ad9-835b-9fc3452e9e2b",
+      "name": "plant 1",
+      "assetId": "9c5ade31-588c-4c46-945b-8343d0ae363a",
+      "position": [
+        -81.47810299206486,
+        19.922463153023166,
+        -82.70901505944494
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "e416de86-b5e4-49b7-ab4d-69fdb756166a",
+      "name": "trail_dirt_straight_1",
+      "assetId": "9c5ada27-4616-48aa-afbf-cd383a3b161f",
+      "position": [
+        -84.0484896205713,
+        18.352931039000477,
+        -98.91658453340052
+      ],
+      "scale": [
+        2.1868770821907284,
+        0.9999999999999999,
+        4.613354666601207
+      ],
+      "rotation": [
+        -0.3305048232783955,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "f28666de-5c2e-4286-aa24-66365ceaf311",
+      "name": "tree_1 1",
+      "assetId": "9c5ade36-4860-4374-b10e-a82ecc1b0c67",
+      "position": [
+        -79.56481042074195,
+        19.922463153023173,
+        -93.87711800859502
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "b5011385-1083-4cc7-aca6-f0360d112fdd",
+      "name": "water_2",
+      "assetId": "9c5ada29-73c8-4880-8bc4-6b52b6ef01b6",
+      "position": [
+        -83.81327367009068,
+        17.030802252424188,
+        -114.17871421898026
+      ],
+      "scale": [
+        11.484410459528924,
+        1.3188055040515083,
+        12.006709692424295
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "1343ec25-9158-4494-8649-b65b3c2c1ab5",
+      "name": "slime",
+      "assetId": "9c5ada25-dcd6-4d13-8c81-e27a38bf1753",
+      "position": [
+        -94.27355667630988,
+        17.03080225242418,
+        -107.06053815770078
+      ],
+      "scale": [
+        2.2810282411491474,
+        1.502862199411919,
+        2.437821563311393
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.7355480395828643,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "a5b80946-ce0f-4429-9340-9ea90d8fb509",
+      "name": "slime",
+      "assetId": "9c5ada25-dcd6-4d13-8c81-e27a38bf1753",
+      "position": [
+        -76.76448695181551,
+        17.03080225242418,
+        -109.54150010794417
+      ],
+      "scale": [
+        4.19900829582259,
+        2.7665290279920782,
+        4.4876397334400275
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.45772505423248616,
+        3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c3b06ecf-c4a7-44e6-a966-18e309b735b1",
+      "name": "slime",
+      "assetId": "9c5ada25-dcd6-4d13-8c81-e27a38bf1753",
+      "position": [
+        -88.57360581395405,
+        17.030802252424184,
+        -112.30660110567675
+      ],
+      "scale": [
+        3.4754068619316705,
+        2.2897820843036127,
+        3.7142993832593376
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.3282361494584049,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "10270807-acd0-42e0-b598-b8b99f8e9c91",
+      "name": "rock_3",
+      "assetId": "9c5ada24-f1ea-458a-9da9-35b59b8243c0",
+      "position": [
+        -76.13519880122207,
+        16.970390081918847,
+        -118.84388132988754
+      ],
+      "scale": [
+        6.936509570728167,
+        1.5022938811783073,
+        5.9472829357539885
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "0f0b480f-da33-4fb1-9eb4-c6c227f50b8e",
+      "name": "rock_2",
+      "assetId": "9c5ada24-c170-488b-a709-612e6b8e2ee7",
+      "position": [
+        -88.14589656657414,
+        16.920800827114256,
+        -107.12666438443762
+      ],
+      "scale": [
+        7.5594762819379415,
+        1,
+        6.6478648070118265
+      ],
+      "rotation": [
+        0,
+        0.5805785767500489,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "1c30ecb6-70d8-4d7f-9141-9d19a54ab17c",
+      "name": "heart",
+      "assetId": "9c5ada22-b04c-4344-8c13-d72d50344c9c",
+      "position": [
+        -80.81031715355694,
+        17.90599683462832,
+        -112.081851172884
+      ],
+      "scale": [
+        3.476971567947396,
+        3.131216751457562,
+        4.547743041956781
+      ],
+      "rotation": [
+        0,
+        -0.4279131621705442,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "7d37ab0b-3677-4b32-a973-6bfef074a8a6",
+      "name": "heart",
+      "assetId": "9c5ada22-b04c-4344-8c13-d72d50344c9c",
+      "position": [
+        -87.61170629281433,
+        17.788598348756846,
+        -119.16383411026955
+      ],
+      "scale": [
+        3.476971567947395,
+        3.131216751457562,
+        4.547743041956781
+      ],
+      "rotation": [
+        0,
+        0.7475704903979018,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "e25058d2-37ca-4cb9-9fbd-40b43350ee64",
+      "name": "heart",
+      "assetId": "9c5ada22-b04c-4344-8c13-d72d50344c9c",
+      "position": [
+        -74.41272889171269,
+        17.87550929400093,
+        -124.46122024114239
+      ],
+      "scale": [
+        3.4769715679473956,
+        3.131216751457562,
+        4.547743041956781
+      ],
+      "rotation": [
+        0,
+        -0.4279131621705442,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "43d16d04-00ee-4e74-ba51-04335fe0d8cd",
+      "name": "slime",
+      "assetId": "9c5ada25-dcd6-4d13-8c81-e27a38bf1753",
+      "position": [
+        -77.0002883414721,
+        17.004426142932708,
+        -124.46070764665942
+      ],
+      "scale": [
+        2.2810282411491487,
+        1.502862199411919,
+        2.4378215633113944
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.45772505423248594,
+        3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "527a6c1e-a3b1-43a9-ad5f-1d7f742c3404",
+      "name": "slime",
+      "assetId": "9c5ada25-dcd6-4d13-8c81-e27a38bf1753",
+      "position": [
+        -92.53162899710405,
+        17.00442614293271,
+        -122.63267751437556
+      ],
+      "scale": [
+        3.31013103498825,
+        2.630330651933397,
+        2.4378215633113958
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.32823614945840496,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "e7baca25-0272-4ab8-a147-e2e636997f28",
+      "name": "rock_2",
+      "assetId": "9c5ada24-c170-488b-a709-612e6b8e2ee7",
+      "position": [
+        -92.57209151264352,
+        16.980603911677107,
+        -118.55337448950344
+      ],
+      "scale": [
+        4.90769716286644,
+        1,
+        6.6478648070118265
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c01c67ec-0e91-4e91-b654-d4a07b76349f",
+      "name": "lilypad",
+      "assetId": "9c5ada23-af06-4093-868e-b6ae17d0d9e8",
+      "position": [
+        -81.53449973538439,
+        17.030802252424188,
+        -120.80077830637666
+      ],
+      "scale": [
+        2.349703154843527,
+        2.349703154843527,
+        2.349703154843527
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "4dd8f20e-23a7-4481-be61-886e9a16a034",
+      "name": "lilypad",
+      "assetId": "9c5ada23-af06-4093-868e-b6ae17d0d9e8",
+      "position": [
+        -92.42452829749396,
+        17.030802252424188,
+        -112.56898494429456
+      ],
+      "scale": [
+        1.537453226275785,
+        1.537453226275785,
+        1.537453226275785
+      ],
+      "rotation": [
+        0,
+        -1.1099017201298078,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "184294f1-de0c-481c-8005-5b37fa7a1011",
+      "name": "lilypad",
+      "assetId": "9c5ada23-af06-4093-868e-b6ae17d0d9e8",
+      "position": [
+        -79.98826326848753,
+        17.030802252424195,
+        -104.87231780588652
+      ],
+      "scale": [
+        1.9245077427150035,
+        1.9245077427150028,
+        1.9245077427150035
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.3878818672057889,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "27c18592-d5fa-458b-abfe-0a2516ec442d",
+      "name": "gem",
+      "assetId": "9c5ada20-45d2-4a4b-abe4-414ef77ed3a5",
+      "position": [
+        -76.45931729874253,
+        17.03080225242419,
+        -104.38643576508476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "0e49f7b0-f7de-4614-b307-bf1ed7224b2c",
+      "name": "gem",
+      "assetId": "9c5ada20-45d2-4a4b-abe4-414ef77ed3a5",
+      "position": [
+        -89.53438658879917,
+        17.03080225242419,
+        -109.53398282706637
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "f2c206d7-fbef-4c8a-9336-c29e7eeab5b8",
+      "name": "mushroom",
+      "assetId": "9c5ada24-3a70-49ec-bec8-39c02203d7ee",
+      "position": [
+        -88.39366456514186,
+        19.92246315302317,
+        -83.12244296909124
+      ],
+      "scale": [
+        2.0220906903020626,
+        2.1560945217954592,
+        1.8869304068588613
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "d8f69cef-4e49-4e33-af65-b879ad1c160c",
+      "name": "mushroom",
+      "assetId": "9c5ada24-3a70-49ec-bec8-39c02203d7ee",
+      "position": [
+        -79.53906831013107,
+        19.922463153023166,
+        -81.86915904077888
+      ],
+      "scale": [
+        1.1727263276890934,
+        1,
+        1.1916275156819987
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "b31c404a-ecdc-4be3-9a6f-787e9c97a335",
+      "name": "mushroom 1",
+      "assetId": "9c5ade31-3d0c-4449-891b-47d53e2f93d6",
+      "position": [
+        -79.45955424001393,
+        19.922463153023166,
+        -91.59223753325587
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "f24d31bd-e50c-4e98-b37c-55072203c332",
+      "name": "bee",
+      "assetId": "9c5ada1c-faa8-40b7-8b85-14e6cfb6a1cc",
+      "position": [
+        -87.32239512093075,
+        21.437727187615387,
+        -68.41728715769565
+      ],
+      "scale": [
+        1.0000000000000004,
+        1,
+        1.0000000000000004
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.3750847784137831,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "abb22302-825c-4b89-ab5d-cdd658ef995d",
+      "name": "bee",
+      "assetId": "9c5ada1c-faa8-40b7-8b85-14e6cfb6a1cc",
+      "position": [
+        -80.50391685535072,
+        21.376984424418893,
+        -62.36966082043489
+      ],
+      "scale": [
+        1.000000000000001,
+        1,
+        1.000000000000001
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.6366194783271968,
+        3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "608d240d-2ced-40fd-8ea3-586d5edbfb68",
+      "name": "bee",
+      "assetId": "9c5ada1c-faa8-40b7-8b85-14e6cfb6a1cc",
+      "position": [
+        -85.42223059671632,
+        21.37075241408006,
+        -71.82095095699917
+      ],
+      "scale": [
+        1.0000000000000013,
+        1,
+        1.0000000000000013
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.6366194783271967,
+        3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "cc67aa86-a8db-4f0e-8316-890c57f048f6",
+      "name": "rotating_log 1",
+      "assetId": "9c5ade32-78b6-4c2c-95ee-3fae78662dbb",
+      "position": [
+        -83.97241650296823,
+        16.063421142963136,
+        -103.73429924642089
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "14da51d4-8cce-4573-b3ba-cf4289aeb697",
+      "name": "rotating_log 1",
+      "assetId": "9c5ade32-78b6-4c2c-95ee-3fae78662dbb",
+      "position": [
+        -84.20217850018089,
+        16.52335876923462,
+        -115.669710972911
+      ],
+      "scale": [
+        0.018513772427366484,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "096c7eae-685e-4bac-9024-944545d81438",
+      "name": "ground_cloud_2 1",
+      "assetId": "9c5ade2d-b2b8-4abb-afbb-ac34764d251f",
+      "position": [
+        -80.6388702662565,
+        21.21924611545439,
+        -65.03853718019464
+      ],
+      "scale": [
+        0.011837922873568378,
+        0.01,
+        0.012488290376092727
+      ],
+      "rotation": [
+        0,
+        0.46657013965531824,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "38fff03c-48d7-43bd-817e-b09233b9e751",
+      "name": "ground_cloud_2 1",
+      "assetId": "9c5ade2d-b2b8-4abb-afbb-ac34764d251f",
+      "position": [
+        -85.78523653674357,
+        21.219246115454407,
+        -62.39610278489359
+      ],
+      "scale": [
+        0.010483563142279068,
+        0.010000000000000004,
+        0.009664712533033302
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.3738103231507217,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "52093a7f-9030-4e4e-aaf9-6e366c211385",
+      "name": "ground_cloud_2 1",
+      "assetId": "9c5ade2d-b2b8-4abb-afbb-ac34764d251f",
+      "position": [
+        -84.93242527799627,
+        21.36331278608628,
+        -69.54410294677142
+      ],
+      "scale": [
+        0.010483563142279068,
+        0.010000000000000002,
+        0.0096647125330333
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.3738103231507217,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "55cdbf45-d551-4bdf-b54d-e92890b29aeb",
+      "name": "ground_cloud_2 1",
+      "assetId": "9c5ade2d-b2b8-4abb-afbb-ac34764d251f",
+      "position": [
+        -82.98222078721646,
+        21.252160427164615,
+        -63.036002909607326
+      ],
+      "scale": [
+        0.010992454812804755,
+        0.007410515741000455,
+        0.008903085455925538
+      ],
+      "rotation": [
+        0.10084716394184773,
+        0.3789848147471969,
+        0.020403710810847245,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "87345173-6331-438d-adf6-44ec7c678e90",
+      "name": "ground_cloud_2 1",
+      "assetId": "9c5ade2d-b2b8-4abb-afbb-ac34764d251f",
+      "position": [
+        -87.5002125504274,
+        21.2192461154544,
+        -64.41223714206895
+      ],
+      "scale": [
+        0.008981605249836688,
+        0.01,
+        0.010142820346754218
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.4263235822431801,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "b1dc6374-f23d-41f3-9a95-0bf322b0426d",
+      "name": "ground_cloud_4 1",
+      "assetId": "9c5ade2d-cbe0-4faa-8a33-c586279064ed",
+      "position": [
+        -84.83758268210241,
+        21.301413910613334,
+        -66.00782518131017
+      ],
+      "scale": [
+        0.00898702108756497,
+        0.008987021087564969,
+        0.008987021087564972
+      ],
+      "rotation": [
+        0.05454611443804882,
+        0.35720094380502887,
+        -0.019088843742834226,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "f45f828b-9c1d-4f18-962a-a88a5dd77189",
+      "name": "ground_cloud_4 1",
+      "assetId": "9c5ade2d-cbe0-4faa-8a33-c586279064ed",
+      "position": [
+        -81.15788549782268,
+        21.21924611545438,
+        -68.70029393678715
+      ],
+      "scale": [
+        0.009158324113602654,
+        0.009158324113602652,
+        0.009158324113602656
+      ],
+      "rotation": [
+        0.05468747068094326,
+        0.3640569962549406,
+        -0.01948943968217262,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "b0223a9c-eeec-4418-bb78-e9a3f6c79f1f",
+      "name": "mushroom",
+      "assetId": "9c5ada24-3a70-49ec-bec8-39c02203d7ee",
+      "position": [
+        -82.60512319840728,
+        19.92437021725065,
+        -85.26227893977621
+      ],
+      "scale": [
+        2.9392528590225653,
+        2.260734193982339,
+        3.1795036139502586
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "a66130fe-23ac-4b29-a0c0-cb9f7a2c207f",
+      "name": "mushroom 1",
+      "assetId": "9c5ade31-3d0c-4449-891b-47d53e2f93d6",
+      "position": [
+        -86.3539979448673,
+        19.701877412753106,
+        -86.873550052834
+      ],
+      "scale": [
+        0.023115624797206642,
+        0.029715960195630848,
+        0.025187407311521207
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c8fda7f3-fb7e-4ae8-8e1c-0da7f005e7a7",
+      "name": "mushroom",
+      "assetId": "9c5ada24-3a70-49ec-bec8-39c02203d7ee",
+      "position": [
+        -83.30014512351784,
+        19.922463153023166,
+        -92.81763857005271
+      ],
+      "scale": [
+        1.6272208407315976,
+        1.8115633838510552,
+        1.5184543887060895
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "3e0f9a13-8f7a-4a32-928c-499cb3efb9c3",
+      "name": "mushroom",
+      "assetId": "9c5ada24-3a70-49ec-bec8-39c02203d7ee",
+      "position": [
+        -85.77742105374335,
+        19.922463153023166,
+        -81.73874482878146
+      ],
+      "scale": [
+        1.6272208407315976,
+        1.8115633838510552,
+        1.5184543887060895
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "805536c7-880a-4bde-b29e-4cb934ad2ad0",
+      "name": "Cone",
+      "position": [
+        -84.8768399975173,
+        20.22022432349349,
+        -89.19396060876767
+      ],
+      "scale": [
+        1.466344259270757,
+        1.466344259270757,
+        1.466344259270757
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9c5ae4a0-0b32-4531-9edb-599e1ca992e6",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "cone",
+      "shapeParams": {
+        "radialSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 1,
+          "type": 1
+        },
+        "openEnded": {
+          "value": false,
+          "type": 4
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "90805335-1abc-4e07-be39-68a18d243306",
+      "name": "Cone",
+      "position": [
+        -79.51902939290021,
+        20.289203631999367,
+        -87.26737370930492
+      ],
+      "scale": [
+        1.5673576188176797,
+        1.4248417542442158,
+        1.5405133442139922
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9c5ae4a0-0b32-4531-9edb-599e1ca992e6",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "cone",
+      "shapeParams": {
+        "radialSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 1,
+          "type": 1
+        },
+        "openEnded": {
+          "value": false,
+          "type": 4
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "0a66ad54-979f-42d8-826c-c1c88aac7ee6",
+      "name": "Cone",
+      "position": [
+        -86.15606092052985,
+        20.203552857770543,
+        -84.64169057508313
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9c5ae4a0-0b32-4531-9edb-599e1ca992e6",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "cone",
+      "shapeParams": {
+        "radialSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 1,
+          "type": 1
+        },
+        "openEnded": {
+          "value": false,
+          "type": 4
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "e669a523-a2ce-4b1e-864d-ef87bcd61f6c",
+      "name": "Cone",
+      "position": [
+        -88.72228570487982,
+        20.19988668638001,
+        -87.62051761266217
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9c5ae4a0-0b32-4531-9edb-599e1ca992e6",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "cone",
+      "shapeParams": {
+        "radialSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 1,
+          "type": 1
+        },
+        "openEnded": {
+          "value": false,
+          "type": 4
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "bfacef9f-466c-46a1-b9f2-900b4c0bdc09",
+      "name": "Cone",
+      "position": [
+        -83.07665102788269,
+        20.24772683630966,
+        -81.76732105365848
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9c5ae4a0-0b32-4531-9edb-599e1ca992e6",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "cone",
+      "shapeParams": {
+        "radialSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 1,
+          "type": 1
+        },
+        "openEnded": {
+          "value": false,
+          "type": 4
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "d62c2bcf-815d-45f9-a804-3f502b2d8e0b",
+      "name": "Cone",
+      "position": [
+        -81.18102228404432,
+        19.922463153023166,
+        -93.32220482252714
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9c5ae4a0-0b32-4531-9edb-599e1ca992e6",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "cone",
+      "shapeParams": {
+        "radialSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 1,
+          "type": 1
+        },
+        "openEnded": {
+          "value": false,
+          "type": 4
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "ab4df47a-0b0c-4c65-8cc0-cad74aa66b31",
+      "name": "mushroom",
+      "assetId": "9c5ada24-3a70-49ec-bec8-39c02203d7ee",
+      "position": [
+        -86.86836761737756,
+        19.82247126977789,
+        -91.43996062969204
+      ],
+      "scale": [
+        2.9952698656550623,
+        3.1937662240426943,
+        2.795060485347624
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "acc94437-28cb-4d5d-8731-2321e1734dbe",
+      "name": "ground_cloud_2 1",
+      "assetId": "9c5ade2d-b2b8-4abb-afbb-ac34764d251f",
+      "position": [
+        -82.12057387231097,
+        21.219246115454396,
+        -71.91641859469064
+      ],
+      "scale": [
+        0.014275373444954248,
+        0.010000000000000004,
+        0.011028653623528204
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.37381032315072166,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "e12386cc-1206-41e2-bfe4-f4b79bcf552d",
+      "name": "ground_cloud_2 1",
+      "assetId": "9c5ade2d-b2b8-4abb-afbb-ac34764d251f",
+      "position": [
+        -87.287989937508,
+        21.270788165608188,
+        -70.8527877087598
+      ],
+      "scale": [
+        0.010483563142279068,
+        0.010000000000000002,
+        0.0096647125330333
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.3738103231507217,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "0aca3652-4f7a-46e2-bba6-2d3c19322657",
+      "name": "ground_grass_8",
+      "assetId": "9c5ada22-2adc-451f-823e-deaaebd1e61c",
+      "position": [
+        -84.29143390696025,
+        30.214445191742104,
+        -153.2629641869886
+      ],
+      "scale": [
+        2.777430505096056,
+        2.777430505096056,
+        2.7774305050960564
+      ],
+      "rotation": [
+        0,
+        0,
+        0.1228406820605391,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "6c9d1f97-4e07-447a-b254-ef9f686cd492",
+      "name": "ground_wood_4",
+      "assetId": "9c5ada22-7a82-443a-8005-8aa490d6a1c8",
+      "position": [
+        -83.783591542487,
+        26.59865525077372,
+        -136.78077712107793
+      ],
+      "scale": [
+        3.338716349022823,
+        1.021687467166911,
+        2.0404003873229506
+      ],
+      "rotation": [
+        -1.5209868838933769,
+        1.442641163167566,
+        2.045617742924555,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "22b509a8-b0f2-455c-bc07-7ed7d58b611e",
+      "name": "tree_2",
+      "assetId": "9c5ada28-5f1a-48a7-b877-5b00e9ca5da1",
+      "position": [
+        -77.56623413442885,
+        30.58185839084233,
+        -159.78305040494112
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "3c6a2cb6-c992-4136-b6a7-871a359478fc",
+      "name": "tree_2",
+      "assetId": "9c5ada28-5f1a-48a7-b877-5b00e9ca5da1",
+      "position": [
+        -76.10414973820755,
+        30.85125625153832,
+        -157.4333737624151
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "121a9825-28e0-4f62-b93b-a3fb943d1ee0",
+      "name": "tree_2",
+      "assetId": "9c5ada28-5f1a-48a7-b877-5b00e9ca5da1",
+      "position": [
+        -75.13708084872265,
+        30.878855943447657,
+        -154.66641163063576
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "157a6c2f-8a3e-4c69-baa0-b6bad2f76c1d",
+      "name": "tree_stump",
+      "assetId": "9c5ada28-791e-4c3a-907f-a5748c8c8dd7",
+      "position": [
+        -91.07738174650407,
+        29.4428630396808,
+        -158.16037252265946
+      ],
+      "scale": [
+        2.8061960712120375,
+        2.1226735719549774,
+        2.514518000976762
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "6714ec9d-8d18-4646-83c9-c56bcd82490e",
+      "name": "bee",
+      "assetId": "9c5ada1c-faa8-40b7-8b85-14e6cfb6a1cc",
+      "position": [
+        -87.9137225959616,
+        21.16042006811967,
+        -62.384853183968765
+      ],
+      "scale": [
+        1.0000000000000007,
+        1,
+        1.0000000000000007
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.8618411979695557,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "39cf9957-f8f5-4bd1-aaec-16445e5cbd00",
+      "name": "bee",
+      "assetId": "9c5ada1c-faa8-40b7-8b85-14e6cfb6a1cc",
+      "position": [
+        -87.78110339487544,
+        21.16042006811967,
+        -73.09037838225053
+      ],
+      "scale": [
+        1.0000000000000007,
+        1,
+        1.0000000000000007
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.8618411979695557,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c57d73e3-528f-4c83-901d-727e808acbf1",
+      "name": "bee",
+      "assetId": "9c5ada1c-faa8-40b7-8b85-14e6cfb6a1cc",
+      "position": [
+        -80.04789813476506,
+        21.16042006811967,
+        -72.90431963790925
+      ],
+      "scale": [
+        1.0000000000000007,
+        1,
+        1.0000000000000007
+      ],
+      "rotation": [
+        -3.141592653589793,
+        -0.8618411979695557,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "1989757e-3201-4e19-8f2e-7671a1c1df03",
+      "name": "tree_stump",
+      "assetId": "9c5ada28-791e-4c3a-907f-a5748c8c8dd7",
+      "position": [
+        -85.52507793976417,
+        29.84556004778134,
+        -152.18811008217008
+      ],
+      "scale": [
+        1.7616582620140588,
+        1.7616582620140588,
+        1.7616582620140588
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "1e9cbdbb-63cf-4f0f-acac-da71af556164",
+      "name": "tree_stump",
+      "assetId": "9c5ada28-791e-4c3a-907f-a5748c8c8dd7",
+      "position": [
+        -88.34670172231286,
+        29.609068684439173,
+        -146.56776247070496
+      ],
+      "scale": [
+        2.4253532024624933,
+        1.7616582620140588,
+        2.4012882779712488
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "88fffd2f-4ebf-4cb1-b04f-48e30cc9b1c9",
+      "name": "tree_stump",
+      "assetId": "9c5ada28-791e-4c3a-907f-a5748c8c8dd7",
+      "position": [
+        -80.02863417304351,
+        30.700634039908756,
+        -149.0718375312147
+      ],
+      "scale": [
+        1.7616582620140588,
+        1.7616582620140588,
+        1.7616582620140588
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "f6cd34b1-652d-4b25-8cc4-e8578a6bd4e9",
+      "name": "tree_stump",
+      "assetId": "9c5ada28-791e-4c3a-907f-a5748c8c8dd7",
+      "position": [
+        -79.99666447062529,
+        30.513622965256673,
+        -157.53193469046053
+      ],
+      "scale": [
+        2.625438972180596,
+        1.7616582620140588,
+        2.2752858291260414
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "48ffdfaa-7d1d-4a0a-96ed-81aabb56e48c",
+      "name": "tree_stump",
+      "assetId": "9c5ada28-791e-4c3a-907f-a5748c8c8dd7",
+      "position": [
+        -93.85196816310439,
+        29.034079487675843,
+        -143.70664938569595
+      ],
+      "scale": [
+        1.7616582620140588,
+        1.7616582620140588,
+        1.7616582620140588
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "90f5dcc5-23e9-4e57-804c-f91c14e7b771",
+      "name": "ground_wood_4 1",
+      "assetId": "9c5ade2f-83d6-4cf8-8cdf-5c6e7fbdcf99",
+      "position": [
+        -83.11567062682533,
+        19.69518232377373,
+        -127.20949428888521
+      ],
+      "scale": [
+        0.02729358463383917,
+        0.01652289664172939,
+        0.02088786531026431
+      ],
+      "rotation": [
+        -1.2265248931646786,
+        1.4492253296248103,
+        1.9398731120501163,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "9ff334de-027a-452b-bf82-c56244718fd4",
+      "name": "tree_stump",
+      "assetId": "9c5ada28-791e-4c3a-907f-a5748c8c8dd7",
+      "position": [
+        -88.16488736069152,
+        29.736219656370675,
+        -162.6389730877868
+      ],
+      "scale": [
+        1.7616582620140588,
+        1.7616582620140588,
+        1.7616582620140588
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "5c1dba13-6c53-4f9b-abfe-b3561f21bb0e",
+      "name": "wall_logs_2 1",
+      "assetId": "9c5ade37-6362-46ff-a571-3d37cf898ff7",
+      "position": [
+        -92.43561003893306,
+        29.20051340250178,
+        -161.85839345875647
+      ],
+      "scale": [
+        0.01617193898603795,
+        0.009999999999999998,
+        0.01
+      ],
+      "rotation": [
+        -0.020027332968014108,
+        0.9777424660041829,
+        -0.11420366837820141,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "0d445ec5-abda-459e-8fa2-6a0b2090d531",
+      "name": "wall_logs_2 1",
+      "assetId": "9c5ade37-6362-46ff-a571-3d37cf898ff7",
+      "position": [
+        -94.25282317484977,
+        28.984588999436312,
+        -159.26300146277413
+      ],
+      "scale": [
+        0.01617193898603795,
+        0.009999999999999998,
+        0.01
+      ],
+      "rotation": [
+        -0.020027332968014108,
+        0.9777424660041829,
+        -0.11420366837820141,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "18d9b83b-35bb-4536-ab24-059c9c8c98f1",
+      "name": "water_4",
+      "assetId": "9c5ada29-b0cc-4112-a8a6-92d13097968b",
+      "position": [
+        -83.3497854567026,
+        21.00793725729211,
+        -194.3990016731788
+      ],
+      "scale": [
+        7.037960213425097,
+        7.037960213425097,
+        7.037960213425097
+      ],
+      "rotation": [
+        -0.13622025803455437,
+        0.01300866115698065,
+        -0.0946197796414951,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "baebf1eb-0141-4107-861f-dbd26f201409",
+      "name": "crate",
+      "assetId": "9c5ada1e-a196-43d6-9209-3347fea72bb0",
+      "position": [
+        -78.31007942389945,
+        20.706845284687695,
+        -185.7493057420168
+      ],
+      "scale": [
+        2.9378981274170006,
+        2.9378981274170006,
+        2.9378981274170015
+      ],
+      "rotation": [
+        0.30441589981113926,
+        0.23792671200811466,
+        -0.610747095436353,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "249012b5-8678-4b52-835e-e3876089743d",
+      "name": "rotating_log 1",
+      "assetId": "9c5ade32-78b6-4c2c-95ee-3fae78662dbb",
+      "position": [
+        -88.51160316815798,
+        22.003489954979884,
+        -187.16895902291157
+      ],
+      "scale": [
+        0.020006200387292845,
+        0.009999999999999997,
+        0.009999999999999998
+      ],
+      "rotation": [
+        -0.1840290655651665,
+        0.9166449379814804,
+        0.0795505330271992,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c087d872-b6e5-4e68-9306-5195d4a5378f",
+      "name": "rotating_log 1",
+      "assetId": "9c5ade32-78b6-4c2c-95ee-3fae78662dbb",
+      "position": [
+        -80.76849704838152,
+        20.719469112373336,
+        -194.53818502619347
+      ],
+      "scale": [
+        0.022915181011443773,
+        0.009598893990935461,
+        0.00959889399093546
+      ],
+      "rotation": [
+        0,
+        -0.648129263405301,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "929ed0ae-5fcd-4dd2-b01b-b6317d53ff2a",
+      "name": "crate",
+      "assetId": "9c5ada1e-a196-43d6-9209-3347fea72bb0",
+      "position": [
+        -76.72637980212451,
+        18.94454045556515,
+        -201.7372212865864
+      ],
+      "scale": [
+        2.9378981274170006,
+        2.937898127417,
+        2.937898127417
+      ],
+      "rotation": [
+        1.429878439589633,
+        0.9347270216808137,
+        -0.9618594451311925,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "ee34fa25-1125-4773-9dd1-9c4fdde2f675",
+      "name": "treasure_chest",
+      "assetId": "9c5ada27-f4d0-4495-86e3-90a620c7bd23",
+      "position": [
+        -89.67623213537864,
+        19.487664751442665,
+        -199.02820365488867
+      ],
+      "scale": [
+        4.0395731296998445,
+        2.690700201285617,
+        2.690700201285616
+      ],
+      "rotation": [
+        2.9058437455464725,
+        -0.45982662008405517,
+        2.645469688834963,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "0a15051b-fb58-4180-ab71-f445d9230556",
+      "name": "rotating_log 1",
+      "assetId": "9c5ade32-78b6-4c2c-95ee-3fae78662dbb",
+      "position": [
+        -81.53064444519083,
+        19.6069524127963,
+        -204.57343061260937
+      ],
+      "scale": [
+        0.014318406117842351,
+        0.009598893990935461,
+        0.009598893990935458
+      ],
+      "rotation": [
+        0,
+        -0.6481292634053009,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#e7e7e7",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": "Non Metallic"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "5c3e8563-1eac-4488-9795-c8bf2b5845fa",
+      "name": "crate",
+      "assetId": "9c5ada1e-a196-43d6-9209-3347fea72bb0",
+      "position": [
+        -95.1914971994562,
+        18.445776357302268,
+        -206.4349087142312
+      ],
+      "scale": [
+        2.937898127417002,
+        2.9378981274170015,
+        2.9378981274170015
+      ],
+      "rotation": [
+        1.4809983034820546,
+        0.3753555690753598,
+        -1.04248679749777,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "f9e8f286-943a-42e8-ab95-f198a567651d",
+      "name": "treasure_chest",
+      "assetId": "9c5ada27-f4d0-4495-86e3-90a620c7bd23",
+      "position": [
+        -73.54675496102412,
+        20.483179139891053,
+        -190.2993586575779
+      ],
+      "scale": [
+        4.039573129699844,
+        2.690700201285616,
+        2.6907002012856154
+      ],
+      "rotation": [
+        2.8642535351978857,
+        -0.45929545407083666,
+        -2.643008425152785,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "0cfc20b6-61b4-4b1f-a2fd-f8b56bff825f",
+      "name": "wall_logs_1",
+      "assetId": "9c5ada28-e66a-47e7-87bb-23c544411dde",
+      "position": [
+        -80.37273975063461,
+        21.7519288266578,
+        -181.34900922807924
+      ],
+      "scale": [
+        1.9354646894295928,
+        10.176625400652094,
+        1.9354646894295935
+      ],
+      "rotation": [
+        1.1408519760186584,
+        0.8979963258827207,
+        0.021948066602657298,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "5c2b5d66-4203-451d-8f09-d2e070fc07c8",
+      "name": "wall_logs_1",
+      "assetId": "9c5ada28-e66a-47e7-87bb-23c544411dde",
+      "position": [
+        -84.77236602830469,
+        22.647983507227565,
+        -180.41609440994384
+      ],
+      "scale": [
+        1.9354646894295928,
+        10.176625400652096,
+        1.935464689429594
+      ],
+      "rotation": [
+        1.170652911146911,
+        0.9702495326116447,
+        0.09877002057401169,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9c5b1df2-a4f8-454e-9e6c-7bb53b28b398",
+          "name": ""
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
       }
     }
   ]

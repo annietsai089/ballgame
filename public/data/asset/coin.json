@@ -1,0 +1,10 @@
+{
+  "name": "coin",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada1e-7d60-4b16-b8cf-ec50af8e6330",
+  "fileKey": "coin.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\coin.obj"
+}

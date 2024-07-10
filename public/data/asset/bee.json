@@ -1,0 +1,10 @@
+{
+  "name": "bee",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada1c-faa8-40b7-8b85-14e6cfb6a1cc",
+  "fileKey": "bee.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\bee.obj"
+}

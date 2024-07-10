@@ -1,0 +1,13 @@
+{
+  "name": "crate 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade2a-a82a-4e8b-b90c-fb4623edfea1",
+  "fileKey": "crate.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\crate.fbx"
+}

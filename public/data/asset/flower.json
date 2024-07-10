@@ -1,0 +1,10 @@
+{
+  "name": "flower",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada20-16f2-4a2e-bbf7-51b0b140bd39",
+  "fileKey": "flower.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\flower.obj"
+}

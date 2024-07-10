@@ -1,0 +1,13 @@
+{
+  "name": "rope 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade32-5bce-4385-9410-9bd14be38bdd",
+  "fileKey": "rope.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\rope.fbx"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ground_dirt_2",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada21-4cfc-4e72-a4e1-dd7d094d1db0",
+  "fileKey": "ground_dirt_2.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\ground_dirt_2.obj"
+}

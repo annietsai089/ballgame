@@ -1,0 +1,10 @@
+{
+  "name": "mushroom",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada24-3a70-49ec-bec8-39c02203d7ee",
+  "fileKey": "mushroom.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\mushroom.obj"
+}

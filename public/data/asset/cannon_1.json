@@ -1,0 +1,13 @@
+{
+  "name": "cannon 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade29-688e-4ae4-bb97-164d2c9bbe1d",
+  "fileKey": "cannon.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\cannon.fbx"
+}

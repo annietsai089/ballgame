@@ -1,0 +1,10 @@
+{
+  "name": "plant",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada24-6d24-41ba-9f82-696c919b5507",
+  "fileKey": "plant.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\plant.obj"
+}

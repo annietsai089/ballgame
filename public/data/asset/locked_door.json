@@ -1,0 +1,10 @@
+{
+  "name": "locked_door",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada24-1b12-4a63-b546-db3049076f90",
+  "fileKey": "locked_door.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\locked_door.obj"
+}

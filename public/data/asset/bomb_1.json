@@ -1,0 +1,13 @@
+{
+  "name": "bomb 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade28-73d4-46c7-b0b0-050c13469a2b",
+  "fileKey": "bomb.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\bomb.fbx"
+}

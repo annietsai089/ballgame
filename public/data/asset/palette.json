@@ -1,0 +1,15 @@
+{
+  "name": "palette",
+  "path": "",
+  "type": "texture",
+  "collisionDetection": true,
+  "id": "9c5ae546-1266-4066-a59f-5e1555914022",
+  "fileKey": "palette.png",
+  "fileFormat": "png",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\tex\\palette.png",
+  "texture": {
+    "flipY": true,
+    "wrapS": "repeat",
+    "wrapT": "repeat"
+  }
+}

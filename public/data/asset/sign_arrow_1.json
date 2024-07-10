@@ -1,0 +1,13 @@
+{
+  "name": "sign_arrow 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade33-44d0-4266-a05b-87fb5a14fcf3",
+  "fileKey": "sign_arrow.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\sign_arrow.fbx"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "trail_dirt_straight_2 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade35-6f8a-4cb1-9c45-45ef205056be",
+  "fileKey": "trail_dirt_straight_2.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\trail_dirt_straight_2.fbx"
+}

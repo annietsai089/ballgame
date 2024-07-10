@@ -1,0 +1,10 @@
+{
+  "name": "sign",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c5ada25-72a0-4f55-81eb-2d5c28573ccb",
+  "fileKey": "sign.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\obj\\sign.obj"
+}

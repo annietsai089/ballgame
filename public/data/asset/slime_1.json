@@ -1,0 +1,13 @@
+{
+  "name": "slime 1",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9c5ade33-8242-4293-a865-779687008ff5",
+  "fileKey": "slime.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\3D Leap Land\\3D Leap Land\\fbx\\slime.fbx"
+}
